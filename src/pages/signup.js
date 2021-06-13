@@ -62,7 +62,7 @@ class signup extends Component {
         <Grid item sm>
           <img src={AppIcon} alt="racoon" className={classes.image} />
           <Typography variant="h2" className={classes.pageTitle}>
-            Singup
+            Signup
           </Typography>
           <form noValidate onSubmit={this.handleSubmit}>
             <TextField
@@ -105,7 +105,7 @@ class signup extends Component {
               id="handle"
               name="handle"
               type="text"
-              label="Handle"
+              label="Name"
               className={classes.textField}
               helperText={errors.handle}
               error={errors.handle ? true : false}
